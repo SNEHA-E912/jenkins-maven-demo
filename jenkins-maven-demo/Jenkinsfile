@@ -10,7 +10,7 @@ pipeline{
             steps{
                 echo 'Building Project..'
 
-                sh 'maven clean package'
+                sh 'mvn clean package'
             }
         }
     }
